@@ -1,2 +1,3 @@
-From hshar/webapp
-ADD ./magizhrepo /var/www/html/magizhrepo 
+FROM nginx
+COPY . /usr/share/nginx/html
+CMD ["nginx", "-g", "daemon off;"]
