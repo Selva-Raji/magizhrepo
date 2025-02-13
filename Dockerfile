@@ -1,2 +1,2 @@
-From selva/webapp
+From hshar/webapp
 ADD ./magizhrepo /var/www/html/magizhrepo 
